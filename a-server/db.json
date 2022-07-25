@@ -1,0 +1,6 @@
+{
+  "routes": [
+    {"routePath":"m1", "displayName":"M1", "ngModuleName": "A01M1Module","remoteEntry": "http://localhost:4201/remoteEntry.js", "remoteName": "a01","exposedModule": "./M1"},
+    {"routePath":"m2", "displayName":"M2", "ngModuleName": "A01M2Module","remoteEntry": "http://localhost:4201/remoteEntry.js", "remoteName": "a01","exposedModule": "./M2"}
+  ]
+}

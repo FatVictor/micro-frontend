@@ -1,0 +1,16 @@
+Testing
+
+<ul>
+  <li>
+    <a href="/login" routerLink="/login">Login</a>
+  </li>
+  <li *ngFor="let r of options" >
+    <a [href]="'/${r.routePath}'" [routerLink]="r.routePath" >{{r.displayName}}</a>
+  </li>
+</ul>
+
+<div #vc></div>
+<div #vc2></div>
+<router-outlet></router-outlet>
+
+<app-remote></app-remote>
